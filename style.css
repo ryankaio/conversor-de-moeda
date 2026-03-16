@@ -5,6 +5,16 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    main{
+        width: 100%;
+        padding: 10px;
+    }
+}
+
 body {
     background: linear-gradient(135deg, #1e3c72, #2a5298);
     height: 100vh;
